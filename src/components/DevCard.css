@@ -1,0 +1,54 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: #1a1a1a;
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+
+.avatar {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 16px;
+}
+
+
+.bio {
+    margin-bottom: 16px;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.link svg {
+    fill: #fff;
+    margin-right: 8px;
+}
+
+.ttt {
+    left: -210px;
+    top: 150px;
+    transform: rotate(25deg);
+
+}
+
+.animate {
+    animation: ttt 1s ease-in-out infinite;
+}
